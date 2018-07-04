@@ -1,0 +1,69 @@
+/*reset*/
+* {
+
+    margin: 0;
+    font-family: Arial;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+
+
+/*corpo*/
+.corpo {
+
+    width: 100%;
+}
+
+/*conteudo*/
+.conteudo {
+
+    max-width: 1280px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+
+/*logo*/
+.logo {
+
+    width: 120px;
+    height: 120px;
+}
+
+/*menu*/
+.menu {
+
+    display: block ;
+    float: right;
+    margin-top: 40px;
+    background: forestgreen;
+
+}
+
+.menu li {
+
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+    font-size: 10pt;
+}
+
+.menu li:hover {
+
+    background: orange;
+}
+
+.menu a {
+
+    color: white;
+    text-decoration: none;
+}
+/*
+.menu a:hover {
+
+    color: gray;
+}*/
